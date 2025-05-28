@@ -1,0 +1,29 @@
+#clock{
+    font-size: x-large;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+div.timer{
+    margin:auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.buttons{
+    margin:auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+#start, #break {
+    color:blue;
+    text-align: center;
+    width: 50px;
+    height: 35px;
+}
