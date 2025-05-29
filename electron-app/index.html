@@ -9,21 +9,22 @@
                 http-equiv="X-Content-Security-Policy"
                 content="default-src 'self'; script-src 'self'"
         />
-        <link rel="stylesheet" href="style.css" />
-        <script src="timer.js"></script>
+        <link rel="stylesheet" href="./style.css" />
+        
         <title> Hello Pomodoro</title>
     </head>
     <body>
         
         <div class="container">
             <h1> POMODORO</h1>
-            <p id="clock">00:00</p>
+            <p class="timer" id="timer">25:00</p>
             <div class="buttons">
                 <button id="start">start</button>
-                <button id="break">break</button>
+                <button id="stop">stop</button>
                 <button id="reset">reset</button>
             </div>
         </div>
         
     </body>
+    <script src="./timer.js"></script>
 </html>
