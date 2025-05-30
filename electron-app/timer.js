@@ -4,6 +4,7 @@ let timeLeft = 1500;
 let interval;
 let sessionCount;
 
+const sessEl = document.getElementById('sessionCount');
 const startEl = document.getElementById('start');
 const stopEl = document.getElementById('stop');
 const resetEl = document.getElementById('reset');
@@ -26,6 +27,8 @@ function startTimer(){
                 alert("Time's up!");
                 timeLeft = 1500;
                 updateTimer();
+                sessionCount++;
+                sessEl.innerText = sessionCount;
             }
         }, 1000);
     console.log("timer started");
