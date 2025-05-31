@@ -1,4 +1,4 @@
-﻿const {app, BrowserWindow, Menu} = require('electron/main');
+﻿const {app, BrowserWindow,  Menu} = require('electron/main');
 
 const createWindow = () => {
     Menu.setApplicationMenu(null);
@@ -14,14 +14,14 @@ const createWindow = () => {
             symbolColor: '#74b1be',
             height: 60,
         },
-
         // expose window controls in Windows/Linux
        // ...(process.platform !== 'darwin' ? { titleBarOverlay: true } : {})
-        
-        
     })
+    win.loadFile('index.html')
+    
+    
+    
 
-    win.loadFile('index.html');
 } 
 
 app.whenReady().then(() => {
