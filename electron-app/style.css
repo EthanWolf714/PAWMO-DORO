@@ -33,6 +33,9 @@ body{
     
 }
 
+#sessionCount{
+    color: #009684;
+}
 .buttons{
     margin:auto;
     width: 50%;
