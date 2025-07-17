@@ -7,7 +7,7 @@ const createWindow = () => {
         height: 600,
         maximizable:false,
         resizable:false,
-        icon: './pawmoIcon.ico',
+        icon: './Art/pawmoIcon.ico',
         //custom window controls
         titleBarOverlay: {
             color: '#0000FF',

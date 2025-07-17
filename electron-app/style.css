@@ -1,27 +1,35 @@
-
+@font-face {
+    font-family: 'Pawmo';
+    src:url('./Art/MotleyForcesRegular-w1rZ3.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
-    background-color: darkorange;
+    background-image:url('./Art/pawmodoro background.png');
+    
 }
 #timer{
+    
     font-size: 12vw;
-    margin-top: 10px;
+    margin-top: 0;
     color: #009684;
+    font-family: 'Pawmo';
+    
 }
-#header{
-    font-size: 7vw;
-    color: #009684;
 
+#image{
+    margin-bottom: 0;
+      
 }
 .timerContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
-
+    height: 100vh;
+    padding:0;
+   
 }
-
-
 
 .container{
     display: flex;
@@ -51,5 +59,6 @@ body{
     border:solid 1px #009684;
     border-radius: 50%;
     background-color: #009684;
+    font-family: 'Pawmo';
 }
 
