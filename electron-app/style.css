@@ -11,23 +11,23 @@ body{
 #timer{
     
     font-size: 12vw;
-    margin-top: 0;
+    margin-top: -2vh;
     color: #009684;
-    font-family: 'Pawmo';
+    font-family: 'Pawmo', serif;
     
 }
 
 #image{
-    margin-bottom: 0;
+    margin-bottom: -2vh;
       
 }
 .timerContainer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
-    padding:0;
+    padding-top:4vh;
    
 }
 
@@ -43,6 +43,8 @@ body{
 
 #sessionCount{
     color: #009684;
+    font-family: 'Pawmo', serif;
+    font-size: 6vw;
 }
 .buttons{
     margin:auto;
@@ -52,13 +54,21 @@ body{
 }
 
 #start, #stop, #reset {
+    
     color:white;
     text-align: center;
     width: 70px;
     height: 55px;
-    border:solid 1px #009684;
+    border:solid 5px #006666;
     border-radius: 50%;
     background-color: #009684;
-    font-family: 'Pawmo';
+    font-family: 'Pawmo', serif;
+    cursor: pointer;
+    
+}
+
+#start:hover:active, #stop:hover:active, #reset:hover:active{
+    background-color: #006666;
+    transform:scale(0.9);
 }
 
